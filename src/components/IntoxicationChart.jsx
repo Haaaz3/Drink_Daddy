@@ -439,7 +439,7 @@ export function IntoxicationChart({ intoxication, sweetSpot, drinks = [], meals 
       <div className="w-full px-1 sm:px-2 pb-2 relative">
         {/* Jon Hamm party gif when in sweet spot */}
         {inSweetSpot && (
-          <div className="absolute inset-0 overflow-hidden rounded-lg">
+          <div className="absolute inset-0 overflow-hidden rounded-lg z-20">
             <img
               src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGt5eHBmemtsOGZ5ZWkyODNlcmtreDNoMGVteXVubXpsMWowcDV5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m7URgFktt1JjDPjGKy/giphy.gif"
               alt="Jon Hamm Clubbing"
